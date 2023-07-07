@@ -1,4 +1,4 @@
-# E-commerce
+# Online-Store-Organizer
 Repo for Challenge 13
 This challenge was to create the backend for the E-commerce site. It allows the user to view products, tags, and categories of products while also able to delete, add, or update all of the above.
 
