@@ -1,3 +1,21 @@
 node_modules
 .env
 .DS_Store
+
+{
+	"id": 15,
+	"category_name": "Flip Flops"
+}
+
+{
+  "id": 15,
+  "product_name": "Rainbows",
+  "price": 15,
+  "stock": 14,
+  "category_id": 1
+}
+
+{
+	"id": 15,
+	"tag_name": "Computers"
+}

@@ -1,5 +1,6 @@
+// Require the product dependency
 const { Product } = require('../models');
-
+// Data for the products
 const productData = [
   {
     product_name: 'Plain T-Shirt',

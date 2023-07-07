@@ -1,5 +1,6 @@
-const { ProductTag } = require('../models');
-
+// Require the ProductTag dependency
+const { ProductTag } = require("../models");
+// id's for the product tags
 const productTagData = [
   {
     product_id: 1,

@@ -1,9 +1,10 @@
-const { Model, DataTypes } = require('sequelize');
+// Imports from sequelize library
+const { Model, DataTypes } = require("sequelize");
 
-const sequelize = require('../config/connection.js');
-
+const sequelize = require("../config/connection.js");
+// Extends the Tag Class off of the Model Class
 class Tag extends Model {}
-
+// Provides parameters for the class
 Tag.init(
   {
     id: {
@@ -21,7 +22,7 @@ Tag.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'tag',
+    modelName: "tag",
   }
 );
 

@@ -1,12 +1,12 @@
-// import important parts of sequelize library
+// Imports from sequelize library
 const { Model, DataTypes } = require('sequelize');
-// import our database connection from config.js
+// Imports DB connection
 const sequelize = require('../config/connection');
 
-// Initialize Product model (table) by extending off Sequelize's Model class
+// Extends the Product Class off of the Model Class
 class Product extends Model {}
 
-// set up fields and rules for Product model
+// Provide parameters for the Product class
 Product.init(
   {
     id: {
@@ -31,7 +31,7 @@ Product.init(
       allowNull: false,
       defaultValue: 10,
       validate: {
-        isNUmeric: true,
+        isNumeric: true,
       },
     },
     category_id: {

@@ -1,20 +1,21 @@
-const { Category } = require('../models');
-
+// Require the Category dependency
+const { Category } = require("../models");
+// Seed data for each category
 const categoryData = [
   {
-    category_name: 'Shirts',
+    category_name: "Shirts",
   },
   {
-    category_name: 'Shorts',
+    category_name: "Shorts",
   },
   {
-    category_name: 'Music',
+    category_name: "Music",
   },
   {
-    category_name: 'Hats',
+    category_name: "Hats",
   },
   {
-    category_name: 'Shoes',
+    category_name: "Shoes",
   },
 ];
 
